@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.sliderCar{
+    width:90%;
+    position:relative;
+    left:8%;
 }
+.itemSlider{
+    padding:10px;
+}
+.CustomerArrowSlider{
+    display:flex;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.CustomerArrowSlider>.c-a-s-left,.c-a-s-right{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:72px;
+    width:72px;
+    border:1px solid #DADADA;
+    border-radius:100%;
+    margin:0 5px;
+    cursor: pointer;
+}
+.c-a-s-right:hover{
+    border:1px solid black;
+}
+.c-a-s-left:hover{
+    border:1px solid black;
+}
+.titleSlider{
+    position:relative;
+    right: 100px;
+}
+.sliderService{
+    width:90%;
+    position:relative;
+    left:8%;
+}
+.sliderService{
+    padding:90px 0;
+}
+input:focus{
+    outline: none;
+}
+.block{
+    display:block;
+}
+.hidden{
+    display:hidden;
+}
+.sliderFleetList{
+    width:90%;
+    float:right;
+}
+.sliderFleet{
+    padding:30px;
 }
